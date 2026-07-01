@@ -6,7 +6,8 @@ body {
     flex-direction: column;
 }
 
-.header {
+.header,
+.footer {
     padding: 8px;
     background-color: #1F2937;
     display: flex;
@@ -110,18 +111,17 @@ img {
 
 .blue-container {
     border-radius: 10px;
-    width: 480px;
+    width: 800px;
     background-color: #3882F6;
-    padding: 16px;
+    padding: 40px;
     display: flex;
-    flex-direction: column;
-}
-
-.sign-up-container {
-    display: flex;
+    color:#F9FAF8;
+    justify-content: space-around;
     align-items: center;
-    justify-content: space-between;
 }
 
 
-
+.footer {
+    padding: 42px;
+    color:  #e5e7eb;
+}
