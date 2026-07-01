@@ -75,8 +75,32 @@ a,
 img {
     max-width: 200px;
 }
-
+.body-two {
+    padding: 32px;
+}
 
 .body-three {
-    background-color: gray;
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 64px;
 }
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: 300;
+    max-width: 800px;
+}
+
+.speaker {
+    font-size: 18px;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: right;
+}
+
+
+
