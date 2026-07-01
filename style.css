@@ -101,6 +101,27 @@ img {
     font-weight: 900;
     text-align: right;
 }
+.body-four {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 64px;
+}
+
+.blue-container {
+    border-radius: 10px;
+    width: 480px;
+    background-color: #3882F6;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sign-up-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
 
 
